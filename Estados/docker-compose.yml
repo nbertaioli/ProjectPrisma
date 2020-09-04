@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  kubernetes2:
+    image: ${DOCKER_REGISTRY-}kubernetes2
+    container_name: ${DOCKER_REGISTRY}kubernetes2
+    build:
+      context: .
+      dockerfile: Kubernetes2\Dockerfile
+    ports:
+      - "9010:80"

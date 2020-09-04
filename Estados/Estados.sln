@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kubernetes2", "Kubernetes2\Kubernetes2.csproj", "{C18D767B-A9B4-4564-AEE0-714D17853925}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstadoTest", "EstadoTest\EstadoTest.csproj", "{7E458EAE-9216-4ACC-9896-2407A4CB4A1E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{810CA919-260E-42D4-BB7C-51C1FB0CAC36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C18D767B-A9B4-4564-AEE0-714D17853925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18D767B-A9B4-4564-AEE0-714D17853925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18D767B-A9B4-4564-AEE0-714D17853925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18D767B-A9B4-4564-AEE0-714D17853925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E458EAE-9216-4ACC-9896-2407A4CB4A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E458EAE-9216-4ACC-9896-2407A4CB4A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E458EAE-9216-4ACC-9896-2407A4CB4A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E458EAE-9216-4ACC-9896-2407A4CB4A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810CA919-260E-42D4-BB7C-51C1FB0CAC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810CA919-260E-42D4-BB7C-51C1FB0CAC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810CA919-260E-42D4-BB7C-51C1FB0CAC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810CA919-260E-42D4-BB7C-51C1FB0CAC36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E25D2BBB-34F5-4655-A1C9-59C763A7FA65}
+	EndGlobalSection
+EndGlobal

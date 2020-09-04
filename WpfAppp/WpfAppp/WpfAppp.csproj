@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="loading.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CouchbaseNetClient" Version="3.0.5" />
+    <PackageReference Include="EPPlus" Version="5.3.1" />
+    <PackageReference Include="Refit" Version="5.1.67" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="loading.gif" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>6cc52278-54b5-4ada-afb6-5cdeaf4b2bed</UserSecretsId>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.7.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Refit" Version="5.1.67" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+
+</Project>

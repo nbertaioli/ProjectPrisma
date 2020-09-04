@@ -1,0 +1,16 @@
+services:
+  kubernetes2:
+    build:
+      context: C:\Users\nbert\Desktop\Estados
+      dockerfile: Kubernetes2\Dockerfile
+    container_name: kubernetes2
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: kubernetes2
+    ports:
+    - published: 9010
+      target: 80
+    - target: 80
+    volumes:
+    - C:\Users\nbert\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+version: '3.4'
